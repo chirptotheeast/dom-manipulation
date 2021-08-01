@@ -37,4 +37,23 @@ const div = document.querySelector('div')
 const spanHi = document.querySelector('#hi')
 const spanBye = document.querySelector('#bye')
 
-spanHi.remove()
+// console.log(spanHi.getAttribute('id'))
+// console.log(spanHi.getAttribute('title'))
+console.log(spanHi.id)
+console.log(spanHi.getAttribute('name'))
+// console.log(spanHi.setAttribute('id', "ssodfpis"))
+
+// console.log(spanHi.id = 'rookyoo')
+// spanHi.removeAttribute("title")
+// console.log(spanHi.dataset)
+// console.log(spanHi.dataset.test)
+// console.log(spanHi.dataset.longerName)
+
+spanHi.dataset.newName = 'aselfdams'
+
+// spanHi.classList.add("new-class")
+// spanHi.classList.remove("h1")
+spanHi.classList.toggle('h2')
+//toggle will remove h2 if it exists or add it if it doesn't exist 
+
+spanHi.style.backgroundColor = "red"
